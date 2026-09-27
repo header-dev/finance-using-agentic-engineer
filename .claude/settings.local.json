@@ -1,7 +1,26 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx --yes create-next-app@latest . --ts --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --yes)"
+      "Bash(npx --yes create-next-app@latest . --ts --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --yes)",
+      "Bash(CHECKPOINT_DISABLE=1 PRISMA_HIDE_UPDATE_MESSAGE=1 npx prisma db push)",
+      "Bash(npx --yes shadcn@latest init -d -y)",
+      "Bash(npx --yes shadcn@latest add -y button card input label select table tabs badge sonner)",
+      "Bash(npm run *)",
+      "Read(//Users/idevalot/Library/Caches/**)",
+      "Read(//Applications/Google Chrome.app/**)",
+      "Bash(sqlite3 *)",
+      "Bash(cd *)",
+      "Bash(python3 -)",
+      "Bash(npx tsc *)",
+      "Bash(npx eslint *)",
+      "Bash(grep -v \"^$\")",
+      "Bash(node e2e-full.mjs)",
+      "Bash(grep -n \"Added \\\\${shares}\" e2e-full.mjs)",
+      "Bash(git check-ignore *)",
+      "Bash(git switch *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git merge *)"
     ]
   }
 }

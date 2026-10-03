@@ -20,7 +20,12 @@
       "Bash(git switch *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git merge *)"
+      "Bash(git merge *)",
+      "Bash(git ls-remote *)",
+      "Bash(echo \"ls-remote exit: $?\")",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git branch *)"
     ]
   }
 }
